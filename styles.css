@@ -1,0 +1,33 @@
+.list{
+    display:flex;
+    justify-content: center;
+    background-color: brown;
+    border-radius: 3em;
+    margin-bottom: 2em;
+}
+
+.header{
+    display:flex;
+    justify-content: center;
+    margin-bottom: 2em;
+    background-color: chartreuse;
+    border-radius: 3em;
+}
+.footer{
+    border-radius: 3em;
+    display:flex;
+    justify-content: center;
+    margin-top: 2em;
+    background-color: chartreuse;
+}
+.listTitle
+{
+    border-radius: 3em;
+    display:flex;
+    justify-content: center;
+    background-color: aqua;
+    margin-bottom: 2em;
+}
+input:checked + span.item {
+    text-decoration: line-through;
+  }
